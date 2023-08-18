@@ -8,6 +8,7 @@
 }
 
 body{
+    text-align: center;
     margin: 0;
     padding: 0;
 }
@@ -48,17 +49,42 @@ body{
     color: var(--cinza-escuro-color);
 }
 
+a{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  color: var(--roxo-color);
+  text-decoration: none;
 
-#footer {
+  }
+
+  footer {
+   height: 300px;
+   
+  }
+  
+  footer a + a {
+    
+    margin-left: 42px;
+  }
+
+  footer #links {
+    margin: 32px auto;
+  }
+
+  .line {
+    width: 391px;
+    height: 0;
+    margin: 0 auto 16px;
+    border: 1px solid var(--cinza-claro-color);
+  }
+
+footer img {
     position: fixed;
     bottom: 0;
-}
-
-#footer img {
+    right: 0;
     width: 100%;
-    object-fit: fill;
+    
 }
-
-
-
 
